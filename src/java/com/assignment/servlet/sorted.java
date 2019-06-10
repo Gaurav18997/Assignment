@@ -79,8 +79,6 @@ List<ServiceResults> Servicedata = new ArrayList<ServiceResults>();
 
  class Sortbyprice implements Comparator<ServiceResults> 
 { 
-    // Used for sorting in ascending order of 
-    // roll number 
     public int compare(ServiceResults a, ServiceResults b) 
     { 
        
@@ -91,8 +89,6 @@ List<ServiceResults> Servicedata = new ArrayList<ServiceResults>();
 
  class Sortbyrating implements Comparator<ServiceResults> 
 { 
-    // Used for sorting in ascending order of 
-    // roll number 
     public int compare(ServiceResults a, ServiceResults b) 
     { 
         
